@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" dir="ltr" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html dir="ltr" lang="en-US">
+    <!--<![endif]-->
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        
+        <title>UDAY&nbsp;::&nbsp;KUMAR</title>
+        
+        <link rel="stylesheet" type="text/css" media="all" href="style.css" />
+        <link rel="stylesheet" type="text/css" media="screen and (max-width: 960px)" href="css/lessthen800.css" />
+        <link rel="stylesheet" type="text/css" media="screen and (max-width: 600px)" href="css/lessthen600.css" />
+        <link rel="stylesheet" type="text/css" media="screen and (max-width: 480px)" href="css/lessthen480.css" />
+                                   
+        <!-- CUSTOM STYLE -->                                                                        
+        <link rel="stylesheet" type="text/css" media="all" href="css/custom-style.css" />
+        
+        <!-- [favicon] begin -->
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="favicon.ico" />
+        <!-- [favicon] end -->  
+        
+        <!-- MAIN FONT STYLE -->  
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz%3A400&amp;subset=latin%2Ccyrillic%2Cgreek" type="text/css" media="all" />      
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Droid+Sans" type="text/css" media="all" />   
+	    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald" type="text/css" media="all" />
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz%3A200%2C400" type="text/css" media="all" />
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed%3A300%7CPlayfair+Display%3A400italic" type="text/css" media="all" />
+        <!-- END MAIN FONT STYLE -->  
+        
+        <link rel="stylesheet" id="prettyPhoto-css" href="css/prettyPhoto.css" type="text/css" media="all" />
+        <link rel="stylesheet" id="jquery-tipsy-css" href="css/tipsy.css" type="text/css" media="all" />
+        
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+        <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+        <script type="text/javascript" src="js/jquery.tipsy.js"></script>
+        <script type="text/javascript" src="js/jquery.tweetable.js"></script>        
+        <script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>  
+        <script type="text/javascript" src="js/jquery.flexslider.min.js"></script>
+        <script type="text/javascript" src="js/jquery.cycle.min.js"></script>  
+        
+        <!-- for accordion slider in staff page -->
+        <script type="text/javascript" src="js/jquery.hrzAccordion.js"></script>  
+        
+        <!-- for filterable effect in gallery and portfolio filterable page -->
+        <script type="text/javascript" src="js/jquery.quicksand.js"></script>  
+        
+        <!-- for portfolio slider -->
+        <script type="text/javascript" src="js/jquery.jcarousel.min.js"></script> 
+        
+        
+        <!-- SLIDER THUMBNAILS -->                                                               
+        <link rel="stylesheet" id="slider-thumbnails-css" href="css/slider-thumbnails.css" type="text/css" media="all" />
+        <script type="text/javascript" src="js/jquery.aw-showcase.js"></script>
+        
+        <!-- SLIDER FLASH -->                                                               
+        <script type="text/javascript" src="js/swfobject.js"></script>      
+        
+        <!-- SLIDER ELEGANT -->                                                               
+        <link rel="stylesheet" id="slider-elegant-css" href="css/slider-elegant.css" type="text/css" media="all" />
+        
+        <!-- SLIDER NIVO -->                                                               
+        <link rel="stylesheet" id="slider-nivo-css" href="css/slider-nivo.css" type="text/css" media="all" />     
+        
+        <!-- CUSTOM JAVASCRIPT -->                           
+        <script type="text/javascript" src="js/jquery.custom.js"></script>
+        <script type="text/javascript"> 
+    //Disable select-text script (IE4+, NS6+) 
+    //visit http://html-generator.weebly.com/html-right-clickselect-disable.html/  
+    function disableselect(e) { 
+        return false 
+    } 
+ 
+    function reEnable() { 
+        return true 
+    } 
+    //if IE4+ 
+    document.onselectstart = new Function("return false") 
+    //if NS6 
+    if (window.sidebar) { 
+        document.onmousedown = disableselect 
+        document.onclick = reEnable 
+    } 
+</script>
+
+<script type="text/javascript"> 
+    //Disable select-text script (IE4+, NS6+) 
+    function disableselect(e) { 
+        return false 
+    } 
+ 
+    function reEnable() { 
+        return true 
+    } 
+    //if IE4+ 
+    document.onselectstart = new Function("return false") 
+    //if NS6 
+    if (window.sidebar) { 
+        document.onmousedown = disableselect 
+        document.onclick = reEnable 
+    } 
+
+    //for ctrl + u desable
+    document.onkeydown = function(e) {
+        if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) {//Alt+c, Alt+v will also be disabled sadly.
+            alert('not allowed');
+        }
+        return false;
+};
+    //for right click desable
+    var tenth = ''; 
+ 
+    function ninth() { 
+        if (document.all) { 
+            (tenth); 
+            alert("Right Click Disable"); 
+            return false; 
+        } 
+    } 
+ 
+    function twelfth(e) { 
+        if (document.layers || (document.getElementById && !document.all)) { 
+            if (e.which == 2 || e.which == 3) { 
+                (tenth); 
+                return false; 
+            } 
+        } 
+    } 
+    if (document.layers) { 
+        document.captureEvents(Event.MOUSEDOWN); 
+        document.onmousedown = twelfth; 
+    } else { 
+        document.onmouseup = twelfth; 
+        document.oncontextmenu = ninth; 
+    } 
+    document.oncontextmenu = new Function('alert("Right Click Disable"); return false') 
+    </script>
+    </head>
+    
+    <body class="image-sphere-style responsive">
+    
+        <!-- START SHADOW WRAPPER -->
+        <div class="shadowBg group">
+            
+            <!-- START WRAPPER -->
+            <div class="wrapper group">
+                
+                <!-- START TOPBAR -->
+                <div id="topbar">
+                    <div class="inner">
+                        <ul class="topbar_links">
+                            <li>
+                                Syllabus which today's industory need <a href="#">Ruby</a>  
+                            </li>
+                            <li>
+                                | <a href="#">Rubu on Rails</a>  
+                            </li>
+                            <li>
+                                | <a href="#">Java</a>  
+                            </li>
+                            <li>
+                                | <a href="#">Aajx</a>  
+                            </li>
+                            <li>
+                                | <a href="#">jQuery</a>  
+                            </li>
+                            <li>
+                                | My Resume <a href="#">Download</a>  
+                            </li>
+                            <li>
+                               | <a href="#">Login</a>  
+                            </li>
+                        </ul>
+                        <div class="clear"></div>
+                    </div>
+                    <!-- end.inner -->
+                </div>
+                <!-- END TOPBAR -->   
+                 
+                <!-- START HEADER -->
+                <div id="header" class="group">
+                
+                    <!-- START LOGO -->
+                    <div id="logo" class="group">
+                        <a href="/index.html" title="UDAY"> 
+                       <img src="images/logo.jpg" alt="UDAY" />For jet solution only...</a>
+                    </div>
+                    <!-- END LOGO -->   
+                    
+                    <!-- START NAV -->
+                    <div id="nav" class="group">
+                        <ul class="level-1 white">
+                            <li class="home">
+                                <a href="index.html">HOME</a>
+                            </li>
+                            <li class="folder">
+                                <a href="#">ScreenCast</a>
+                                <ul class="sub-menu">
+                                    <li><a href="gallery.html">Gallery</a></li>
+                                </ul>
+                            </li>
+                            <li class="bookmark">
+                                <a href="#">My  Portfolio</a>
+                                <ul class="sub-menu">
+                                    <li><a href="portfolio-with-slider.html">With Slider</a></li>
+                                </ul>
+                            </li>
+                            <li class="burst">
+                                <a href="#">Shortcodes</a>
+                                <ul class="sub-menu">
+                                <li><a href="shortcode-media-widgets.html">Media &#038; Widgets</a></li>
+                                </ul>
+                            </li>
+                            <li class="email">
+                                <a href="contact.html">Contact</a>
+                                <ul class="sub-menu">
+                                <li><a href="faq.html">Faq</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- END NAV -->   
+                </div>
+                <!-- END HEADER -->        
+        
+                <!-- START CONTENT -->
+                <div id="content" class="layout-sidebar-left group portfolio-filterable">
+                
+                    <!-- SLOGAN --> 
+                    <div id="slogan" class="inner">
+                        <h1 class="only">comming soon ScreenCast Gallery page</h1>
+                    </div>         
+                    <!-- END SLOGAN --> 
+                
+                    <!-- START PRIMARY -->
+                    <div id="primary" class="hentry group wrapper-content" role="main">
+                    
+                        <div id="portfolio-gallery" class="internal_page_items internal_page_gallery">
+                            <ul class="gallery-wrap image-grid group">
+                            
+                                <li data-id="id-1" class="coffee ">
+                                    <div class="internal_page_item internal_page_item_gallery">
+                                        <a href="#"><img src="images/gallery/gallery-208x168.jpg" alt="002" title="002" /></a>
+                                        <div class="overlay">
+                                            <h5><a href="#">Morning Snacks with Ruby</a></h5>
+                                            <p>Do you like Ruby yummy snacks?</p>
+                                            <a class="icon-zoom" href="images/gallery/gallery.jpg" rel="prettyPhoto" title="Hot coffee">Zoom</a>
+                                            <a class="icon-more" href="h#" title="Hot coffee">View More</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                
+                                <li data-id="id-2" class="cake chocolate ">
+                                    <div class="internal_page_item internal_page_item_gallery">
+                                        <a href="#"><img src="images/gallery/gallery-208x168.jpg" alt="0011" title="0011" /></a>
+                                        <div class="overlay">
+                                            <h5><a href="#">Homemade cake on a saucer</a></h5>
+                                            <p>A piece of cakes with chocolate stripes</p>
+                                            <a class="icon-zoom" href="images/gallery/gallery.jpg" rel="prettyPhoto" title="Homemade cake on a saucer">Zoom</a>
+                                            <a class="icon-more" href="#" title="Homemade cake on a saucer">View More</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li data-id="id-2" class="cake chocolate ">
+                                    <div class="internal_page_item internal_page_item_gallery">
+                                        <a href="#"><img src="images/gallery/gallery-208x168.jpg" alt="0011" title="0011" /></a>
+                                        <div class="overlay">
+                                            <h5><a href="#">Homemade cake on a saucer</a></h5>
+                                            <p>A piece of cakes with chocolate stripes</p>
+                                            <a class="icon-zoom" href="images/gallery/gallery.jpg" rel="prettyPhoto" title="Homemade cake on a saucer">Zoom</a>
+                                            <a class="icon-more" href="#" title="Homemade cake on a saucer">View More</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                
+                                <li data-id="id-3" class="cake ">
+                                    <div class="internal_page_item internal_page_item_gallery">
+                                        <a href=""><img src="images/gallery/gallery-208x168.jpg" alt="easter cakes and eggs" title="easter cakes and eggs" /></a>
+                                        <div class="overlay">
+                                            <h5><a href="#">Kuchen</a></h5>
+                                            <p>Lorem ipsum dolor sit amet.</p>
+                                            <a class="icon-zoom" href="images/gallery/gallery.jpg" rel="prettyPhoto" title="Kuchen">Zoom</a>
+                                            <a class="icon-more" href="#" title="Kuchen">View More</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li data-id="id-3" class="cake ">
+                                    <div class="internal_page_item internal_page_item_gallery">
+                                        <a href=""><img src="images/gallery/gallery-208x168.jpg" alt="easter cakes and eggs" title="easter cakes and eggs" /></a>
+                                        <div class="overlay">
+                                            <h5><a href="#">Kuchen</a></h5>
+                                            <p>Lorem ipsum dolor sit amet.</p>
+                                            <a class="icon-zoom" href="images/gallery/gallery.jpg" rel="prettyPhoto" title="Kuchen">Zoom</a>
+                                            <a class="icon-more" href="#" title="Kuchen">View More</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                
+                                <li data-id="id-4" class="chocolate ">
+                                    <div class="internal_page_item internal_page_item_gallery">
+                                        <a href="#"><img src="images/gallery/gallery-208x168.jpg" alt="kuchen" title="kuchen" /></a>
+                                        <div class="overlay">
+                                            <h5><a href="#">Easter cakes and eggs</a></h5>
+                                            <p>Spread on white egg cream</p>
+                                            <a class="icon-zoom" href="images/gallery/gallery.jpg" rel="prettyPhoto" title="Easter cakes and eggs">Zoom</a>
+                                            <a class="icon-more" href="#" title="Easter cakes and eggs">View More</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                
+                                <li data-id="id-5" class="chocolate fruits ">
+                                    <div class="internal_page_item internal_page_item_gallery">
+                                        <a href="#"><img src="images/gallery/gallery-208x168.jpg" alt="coffee" title="coffee" /></a>
+                                        <div class="overlay">
+                                            <h5><a href="#">We love fruits</a></h5>
+                                            <p>this is another image of your gallery</p>
+                                            <a class="icon-zoom" href="images/gallery/gallery.jpg" rel="prettyPhoto" title="We love fruits">Zoom</a>
+                                            <a class="icon-more" href="#" title="We love fruits">View More</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                
+                                <li data-id="id-6" class="coffee ">
+                                    <div class="internal_page_item internal_page_item_gallery">
+                                        <a href="#"><img src="images/gallery/gallery-208x168.jpg" alt="Homemade cake on a saucer decorated with a pink flower" title="Homemade cake on a saucer decorated with a pink flower" /></a>
+                                        <div class="overlay">
+                                            <h5><a href="#">Cute and clean design</a></h5>
+                                            <p>if you enjoy a clean and elegant style, Impero is your theme.</p>
+                                            <a class="icon-zoom" href="images/gallery/gallery.jpg" rel="prettyPhoto" title="Cute and clean design">Zoom</a>
+                                            <a class="icon-more" href="#" title="Cute and clean design">View More</a>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                 <li data-id="id-4" class="chocolate ">
+                                    <div class="internal_page_item internal_page_item_gallery">
+                                        <a href="#"><img src="images/gallery/gallery-208x168.jpg" alt="kuchen" title="kuchen" /></a>
+                                        <div class="overlay">
+                                            <h5><a href="#">Easter cakes and eggs</a></h5>
+                                            <p>Spread on white egg cream</p>
+                                            <a class="icon-zoom" href="images/gallery/gallery.jpg" rel="prettyPhoto" title="Easter cakes and eggs">Zoom</a>
+                                            <a class="icon-more" href="#" title="Easter cakes and eggs">View More</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                
+                                <li data-id="id-5" class="chocolate fruits ">
+                                    <div class="internal_page_item internal_page_item_gallery">
+                                        <a href="#"><img src="images/gallery/gallery-208x168.jpg" alt="coffee" title="coffee" /></a>
+                                        <div class="overlay">
+                                            <h5><a href="#">We love fruits</a></h5>
+                                            <p>this is another image of your gallery</p>
+                                            <a class="icon-zoom" href="images/gallery/gallery.jpg" rel="prettyPhoto" title="We love fruits">Zoom</a>
+                                            <a class="icon-more" href="#" title="We love fruits">View More</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                
+                                <li data-id="id-6" class="coffee ">
+                                    <div class="internal_page_item internal_page_item_gallery">
+                                        <a href="#"><img src="images/gallery/gallery-208x168.jpg" alt="Homemade cake on a saucer decorated with a pink flower" title="Homemade cake on a saucer decorated with a pink flower" /></a>
+                                        <div class="overlay">
+                                            <h5><a href="#">Cute and clean design</a></h5>
+                                            <p>if you enjoy a clean and elegant style, Impero is your theme.</p>
+                                            <a class="icon-zoom" href="images/gallery/gallery.jpg" rel="prettyPhoto" title="Cute and clean design">Zoom</a>
+                                            <a class="icon-more" href="#" title="Cute and clean design">View More</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                
+                            </ul>
+                            <div class="clear"></div>
+                        </div>
+                        
+                    </div>
+                    <!-- END CONTENT -->
+                    
+                    <!-- START SIDEBAR -->
+                    <div id="sidebar" class="group">
+                    
+                        <div class="widget-first widget gallery-categories">
+                            <h3>Gallery Categories</h3>
+                            <ul id="gallery_categories_widget">
+                                <li class="segment-1"><a data-value="all" href="gallery.html">All Ruby</a></li>
+                                <li class="segment-24"><a href="#" data-value="cake">Ruby</a></li>
+                                <li class="segment-22"><a href="#" data-value="chocolate">Ruby on Rails</a></li>
+                                <li class="segment-23"><a href="#" data-value="js">JavaScript</a></li>
+                                <li class="segment-23"><a href="#" data-value="ax">Ajax</a></li>
+                                <li class="segment-23"><a href="#" data-value="jq">jQuery</a></li>
+                                <li class="segment-23"><a href="#" data-value="fruits">JSON</a></li>
+                                <li class="segment-23"><a href="#" data-value="bs">BootStrap</a></li>
+                                <li class="segment-23"><a href="#" data-value="fruits">HTML5</a></li>
+                                <li class="segment-21"><a href="#" data-value="coffee">Node.js</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="widget-last widget widget_text"> </div>
+
+                        <div class="widget-first widget gallery-categories">
+                            <ul id="gallery_categories_widget">
+                                <li class="segment-1"><a data-value="all" href="gallery.html">All JAVA</a></li>
+                                <li class="segment-24"><a href="#" data-value="cake">JAVA</a></li>
+                                <li class="segment-22"><a href="#" data-value="chocolate">Struts 2.0</a></li>
+                                <li class="segment-23"><a href="#" data-value="js">JavaScript</a></li>
+                            </ul>
+                        </div>
+                        <div class="widget-last widget widget_text"> </div>
+
+                        <div class="widget-first widget gallery-categories">
+                            <ul id="gallery_categories_widget">
+                                <li class="segment-1"><a data-value="all" href="gallery.html">Algorithms
+                                <li class="segment-24"><a href="#" data-value="cake"></a></li>
+                                
+                            </ul>
+                        </div>
+
+                        <div class="widget-last widget widget_text"> </div>
+                    </div>
+                    <!-- END SIDEBAR -->  
+                    
+                </div>
+                <!-- END CONTENT -->
+        
+
+               
+               <div id="footer" class="group columns-3"><!-- here you can change the number of columns -->
+                    <div class="inner footer-main">
+                        
+                        <!-- START WIDGET -->
+                        <div class="widget-first widget icon-text group">
+                            <img src="images/icons/widget/call.png" alt="" />
+                            <h3>Call Me&nbsp;(+5:30 GMT)</h3>
+                            <p>+91 11 22484788&nbsp;Night<br/>+91-851-0034-891&nbsp;Day</p>
+                            <br/>
+                            <img src="images/icons/widget/smile.png" alt="" />
+                            <h3>How May i help you</h3>
+                            <p>I will find a great solution for your problem. <a href="contact.html"><strong>Send us</strong></a> your problem and i will give you best solution with <strong>POC</strong>.</p>
+                        </div>             
+                        <!-- END WIDGET -->
+                                    
+                        <!-- START WIDGET -->
+                        <div class="widget widget_flickrRSS">
+                            <h3>PHOTO STREAMING</h3>
+                            <ul>
+                            <li>
+                                <a class="thumb img" href="images/portfolio/three-columns/l2.jpg" rel="prettyPhoto[movies]" title="Coffee Break"><img height="100" width="90" src="images/portfolio/three-columns/l2-thumb.jpg" alt="001" />
+                                 </a>
+                             </li>
+                            <li>
+                                  <a class="thumb img" href="images/portfolio/three-columns/m3.jpg" rel="prettyPhoto[movies]" title="Kalysph&Atilde;&uml;ra"><img height="100" width="90" src="images/portfolio/three-columns/m3-thumb.jpg" alt=""  />
+                                  </a>
+                              </li>
+                    
+                                <li>
+                                    <a class="thumb img" href="images/portfolio/three-columns/m1.jpg" rel="prettyPhoto[movies]" title="Impero Brand"> <img height="100" width="90" src="images/portfolio/three-columns/m1-thumb.jpg" alt="002" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="thumb img" href="images/portfolio/three-columns/p1.jpg" rel="prettyPhoto[movies]" title="Impero Brand"><img height="100" width="90" src="images/portfolio/three-columns/p1-thumb.jpg" alt="002" />
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>                    
+                        
+                                    
+                        <!-- START WIDGET -->
+                        <div class="widget-last widget widget_nav_menu">
+                            <h3>MENU</h3>
+                            <ul class="menu">
+                                <li><a href="index.html">About Uday &nbsp;(MAC)</a></li>
+                                <li><a href="contact.html">Contact MAC&#8217;S</a></li>
+                                <li><a href="#">MAC Web</a></li>
+                                <li><a href="#">Blog</a></li>
+                            </ul>
+                        </div>    
+                        <!-- END WIDGET -->
+                                  
+                    </div>
+                </div>
+                <!-- END FOOTER -->
+                           
+                <!-- START COPYRIGHT -->
+                <div id="copyright" class="group two-columns">
+                    <div class="inner group">
+                        <p class="left">All Content Is Open Source By <a href="#"><strong>Mac</strong></a> 2014 </p>
+                        <p class="right">
+                            <a href="#" class="socials facebook" title="Facebook">facebook</a>
+                            <a href="#" class="socials youtube" title="Youtube">youtube</a>
+                            <a href="#" class="socials twitter" title="Twitter">twitter</a>
+                            <a href="#" class="socials linkedin" title="Linkedin">linkedin</a>
+                            <a href="#" class="socials skype" title="Skype">skype</a>
+                        </p>
+                    </div>
+                </div>
+                <!-- END COPYRIGHT -->  
+                   
+            </div>
+            <!-- END WRAPPER --> 
+            	    
+        </div>
+        <!-- END SHADOW -->       
+        
+    </body>
+</html>
